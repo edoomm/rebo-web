@@ -20,6 +20,8 @@
     max-width: 200px;
     margin: 0;
     min-width: 170px;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
     
 }
 .btn:hover{

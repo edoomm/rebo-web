@@ -26,9 +26,9 @@ const HeaderButton: React.FC<HeaderButtonprops> = ({ label, routePath,  LabelCol
       onClick={handleClick}
       className={`HeaderButton d-inline-flex align-items-center ${isActive ? 'active' : ''}`}
       style={{
-        color: LabelColor,
-        backgroundColor: isActive ? 'rgba(255, 113, 0, 1)' : 'transparent',
-        border: isActive ? '1px solid rgba(255, 113, 0, 1)' : 'none',
+        
+        color: isActive ? 'rgba(255, 113, 0, 1)' : 'white',
+        backgroundColor: isActive ? 'transparent' : 'transparent',
       }}
     >
       
