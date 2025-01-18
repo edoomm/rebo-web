@@ -96,7 +96,7 @@ div{
 	display: flex;
 	flex-direction: column;
 	
-	gap: 6vh;
+	gap: 3vh;
 	margin: 0;
 	padding: 0;
 }
