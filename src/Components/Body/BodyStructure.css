@@ -51,7 +51,7 @@ div{
 	padding-top: 120px;
 	width: 100% !important;
   }
-  
+
   .LogoReboTop {
 	padding-left: 100px;
 	height: 10vh;
@@ -162,13 +162,13 @@ div{
 	.OrangeRectangle{
 	top: 25%; /* Centra verticalmente */
 	left: 50%; /* Centra horizontalmente */
-	transform: translate(-50%, -50%); /* Ajusta para centrar completamente */
+	transform: translate(-45%, -60%); /* Ajusta para centrar completamente */
 	width: 50%; /* Reduce el tamaño en pantallas pequeñas */
 	}
 	.ReboHero3 {
 	  top: 20%; /* Centra verticalmente */
 	  left: 50%; /* Centra horizontalmente */
-	  transform: translate(-50%, -50%); /* Ajusta para centrar completamente */
+	  transform: translate(-50%, -60%); /* Ajusta para centrar completamente */
 	  width: 50%; /* Reduce el tamaño en pantallas pequeñas */
 	  min-width: 200px;
 	}
