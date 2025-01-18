@@ -18,16 +18,16 @@ const BodyStructure: React.FC = () => {
     <div className="FullBody container-fluid bg-image p-0">
       <div className="TopBody">
         <div className="Top1 row justify-content-left ">
-          <div className="LogoReboContainer col justify-content-center justify-content-md-start  ">
+          <div className="LogoReboContainer col justify-content-center justify-content-lg-start  ">
           <img className="LogoReboTop img-fluid " src={require('../Figma Components/ReboTopSection.png')} alt="Logo" />
           </div>
         </div>
-        <div className="Top2 row justify-content-start justify-content-md-center text-wrap py-3  text-black" > 
-		     <p className="MainTitle  h-md2 text-center text-md-start text-white"> 
+        <div className="Top2 row justify-content-center justify-content-lg-start text-wrap py-3  text-black" > 
+		     <p className="MainTitle  h-md2 text-center text-lg-start text-white"> 
             Equipo y calzado de seguridad industrial
           </p>
         </div>
-        <div className="Top3 row justify-content-start mt-4 ">
+        <div className="Top3 row justify-content-center justify-content-lg-start mt-4 ">
           <div className="col-12 col-sm-auto justify-content-start justify-content-md-center">
             <BodyTop1Button label="VER PRODUCTOS" ContactLink="mailto:contacto@rebo.mx" ButtonColor="rgba(255, 113, 0, 1)" TextColor="white" />
           </div>

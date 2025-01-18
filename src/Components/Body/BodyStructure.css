@@ -56,7 +56,11 @@ div{
 	padding-left: 100px;
 	height: 10vh;
 	
-	
+  }
+
+  .LogoReboContainer{
+	display: inline-flex;
+	justify-content: start !important;
   }
   
   .col text-start{
@@ -151,7 +155,10 @@ div{
 		padding-left: 0;
 		height: 10vh;
 		cursor: pointer;
-		
+	  }
+	.LogoReboContainer{
+		justify-content: center !important;
+		display: inline-flex;
 	  }
 	.Top2{
 		padding-left: 0;
