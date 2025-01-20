@@ -1,0 +1,26 @@
+.ProductDisplayBody{
+    width: 100%;
+    margin: 0%;
+    max-width: none;
+}
+.ContainerDisplay{
+    width: 100%;
+    margin: 0%;
+    max-width: none;
+    padding: 0%;
+}
+.DisplayTop{
+    background-image: url('../Figma Components/BackgroundDisplay.png');
+	background-size: cover; 
+	background-position: start;
+	background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    min-width: none;
+    max-width: none;
+    margin: 0%;
+    padding: 0%;
+}
+.DisplayTitle{
+    font-size: 4rem;
+}

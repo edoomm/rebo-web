@@ -1,0 +1,25 @@
+.ContactButton{
+    background: none;
+    border: none;
+    width: fit-content;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.ContactButton:hover {
+    
+    opacity: 0.6;
+}
+.GeneralLink{
+    text-decoration: none;
+}
+.ParagraphB{
+    font-family: ubuntu;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}

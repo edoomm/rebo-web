@@ -1,0 +1,35 @@
+
+
+.Product{
+    background-color: white;
+    width: 220px;
+    border-radius: 0%;
+    align-items: center;
+    height: 300px;
+}
+.ProductCardLink{
+    background-color: rgba(255, 113, 0, 1);
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-radius: none;
+    font-size: calc(0.5rem+1vw);
+    padding: 0;
+   border-radius: 0%;
+
+}
+.ProductCardLink:hover{
+   
+    background-color: rgba(255, 113, 0, 1);
+}
+.ProductCardLink:active{
+    background-color: rgba(255, 113, 0, 1) ;
+}
+.ImageEquipment{
+    width: 120px;
+    
+}
+.ProductCardName{
+    font-size:20px;
+    width: fit-content;
+}

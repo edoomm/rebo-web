@@ -1,0 +1,23 @@
+.EndBody{
+	height: 100%;
+	background-color: black;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin-right: 0 !important
+}
+.EndContainer{
+	margin: 0% !important;
+}
+.Top15{
+	display: flex;
+	gap: 30px;
+}
+.LogoRebo{
+    padding-top: 20px;
+}
+.LogoReboEnd{
+	
+	
+	min-width: 100px;
+}
