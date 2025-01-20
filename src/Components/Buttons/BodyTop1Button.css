@@ -8,8 +8,7 @@
     width: fit-content;
     margin: 0;
     min-width: 200px;
-    padding: 0% !important;
-    
+    padding: 1em;
 }
 
 .BodyB{
@@ -20,7 +19,6 @@
     max-width: 200px;
     margin: 0;
     min-width: 170px;
-    padding: 4em;
 }
 
 .btn:hover{
