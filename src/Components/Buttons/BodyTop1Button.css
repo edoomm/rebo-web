@@ -11,8 +11,8 @@
     padding: 0% !important;
     
 }
+
 .BodyB{
-    border-radius: none !important;
     border: none!important;
     height: 5.5vh;
     max-height: fit-content;
@@ -20,10 +20,9 @@
     max-width: 200px;
     margin: 0;
     min-width: 170px;
-    padding-left: 2px !important;
-    padding-right: 2px !important;
-    
+    padding: 4em;
 }
+
 .btn:hover{
     opacity: 0.6;
 }

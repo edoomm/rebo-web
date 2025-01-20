@@ -25,7 +25,7 @@ const BodyTop1Button: React.FC<BodyTop1Buttonprops> = ({ label, ContactLink, But
                 wordWrap: 'break-word',
                 fontSize: 'calc(0.75rem + 0.5vw)'
             }}
-            className="BodyB text-center">
+            className="BodyB text-center rounded">
             {label}
         </Button>
     );
