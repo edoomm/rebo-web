@@ -49,3 +49,21 @@
 	} 
     
 }
+@media (min-width: 1600px){
+	.MedalHolder{
+		position: absolute;
+		top: 0%; /* Coloca la imagen justo al final del primer div */
+		left: 50%; /* Centra la imagen horizontalmente */
+		transform: translate(-50%, -60%); /* Ajusta la imagen para que esté parcialmente en ambos divs */
+		 
+		z-index: 0; /* Asegura que la imagen esté por encima de ambos divs */
+	
+		background-color: white;
+		border-top-right-radius: 60px;
+		border-bottom-left-radius: 60px;
+		width: 60vw;
+		min-width: 210px;
+		height: 270px;
+	} 
+    
+}

@@ -43,7 +43,7 @@ div{
 	display: flex;
 	flex-direction: column;
 	height: 767px;
-	gap: 6vh;
+	gap: 3vh;
 	margin: 0;
   }
   .Top1{
@@ -51,11 +51,16 @@ div{
 	padding-top: 120px;
 	width: 100% !important;
   }
+
   .LogoReboTop {
 	padding-left: 100px;
 	height: 10vh;
 	
-	
+  }
+
+  .LogoReboContainer{
+	display: inline-flex;
+	justify-content: start !important;
   }
   
   .col text-start{
@@ -64,10 +69,13 @@ div{
   }
   .Top2{
 	object-fit: contain;
-	height: 25vh;
+	height: fit-content;
 	margin: 0%;
 	padding-left: 100px;
 	margin-right: 0% !important;
+  }
+  .MainTitle{
+	height: fit-content;
   }
   .h1{
 	color: white;
@@ -92,8 +100,8 @@ div{
 	height: 915px;
 	display: flex;
 	flex-direction: column;
-	height: 767px;
-	gap: 6vh;
+	
+	gap: 3vh;
 	margin: 0;
 	padding: 0;
 }
@@ -147,7 +155,10 @@ div{
 		padding-left: 0;
 		height: 10vh;
 		cursor: pointer;
-		
+	  }
+	.LogoReboContainer{
+		justify-content: center !important;
+		display: inline-flex;
 	  }
 	.Top2{
 		padding-left: 0;
@@ -158,13 +169,13 @@ div{
 	.OrangeRectangle{
 	top: 25%; /* Centra verticalmente */
 	left: 50%; /* Centra horizontalmente */
-	transform: translate(-50%, -50%); /* Ajusta para centrar completamente */
+	transform: translate(-45%, -60%); /* Ajusta para centrar completamente */
 	width: 50%; /* Reduce el tamaño en pantallas pequeñas */
 	}
 	.ReboHero3 {
 	  top: 20%; /* Centra verticalmente */
 	  left: 50%; /* Centra horizontalmente */
-	  transform: translate(-50%, -50%); /* Ajusta para centrar completamente */
+	  transform: translate(-50%, -60%); /* Ajusta para centrar completamente */
 	  width: 50%; /* Reduce el tamaño en pantallas pequeñas */
 	  min-width: 200px;
 	}
