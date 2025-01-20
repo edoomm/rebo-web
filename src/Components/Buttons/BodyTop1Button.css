@@ -1,14 +1,13 @@
 .btn{
     --bs-btn-border-radius:0;
     align-items: center;
-    border-radius: none!important;
     height: 5.5vh;
     min-height: 35px;
     font-weight: bold;
     width: fit-content;
     margin: 0;
     min-width: 200px;
-    padding: 1em;
+    padding: 1em 1.5em 2em;
 }
 
 .BodyB{
