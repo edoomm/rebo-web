@@ -31,7 +31,7 @@ const MidSection: React.FC = () => {
           </Row>
 
           <Row className="Top9 z-1 d-flex justify-content-center mt-4">
-            <Col xs={6} sm="auto" className="ButtonMid p-0">
+            <Col xs="auto" sm="auto" className="ButtonMid p-0">
               <BodyTop1Button 
                 label="CONTÁCTANOS" 
                 ContactLink="mailto:edgar.mtz@rebo.mx" 
@@ -39,7 +39,7 @@ const MidSection: React.FC = () => {
                 TextColor="rgba(255, 113, 0, 1)" 
               />
             </Col>
-            <Col xs={6} sm="auto" className="ButtonMid p-0">
+            <Col xs="auto" sm="auto" className="ButtonMid p-0">
               <BodyTop1Button 
                 label="COTIZA AHORA" 
                 ContactLink="mailto:edgar.mtz@rebo.mx" 
@@ -51,8 +51,6 @@ const MidSection: React.FC = () => {
         </Col>
       </Row>
     </Container>
-
-);
-};
+  )};
 
 export default MidSection;

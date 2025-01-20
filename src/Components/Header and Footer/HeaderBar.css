@@ -1,33 +1,38 @@
 .TopNav{
     gap: 30px;
 }
+
 .nav{
     gap: 20px;
 }
+
 .Header{
     margin: 0%;
     padding: 0%;
 }
+
 .ContactInfo {
     height: 6vh;
     min-height: 50px;
     max-height: 55px;
     background-color: rgba(33, 33, 26, 1);
 }
+
 .nav-link{
     color: white;
     font-family: ubuntu;
     text-decoration: none;
-
 }
+
 .nav-link:focus{
     color: white;
 }
+
 .nav-link:active {
     color: inherit; 
-  }
+}
+
 .LogoContainer {
-    padding-right: 3vw;
     height: 15vh;
     min-height: fit-content;
     max-height: 150px;
@@ -39,17 +44,18 @@
     width: 30vw;
     min-width: 200px;
     max-height: 120px;
-
 }
 
 .ButtonContainer {
     align-items: center;
     gap: 15px;
 }
+
 .Menu{
     background-color: black;
     opacity: 0.8;
 }
+
 .offcanvas-header .btn-close {
     filter: invert(1); /* Converts to white */
   }
@@ -59,5 +65,5 @@
         color: white;
         font-family: ubuntu;
         font-size: 12px;
-    }
   }
+}
