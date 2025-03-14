@@ -1,0 +1,316 @@
+.row{
+	margin-right:0%;
+}
+h1 h2 h3 h4 h5 h6{
+	font-family: ubuntu;
+	margin: 0% !important;
+}
+
+div{
+	font-family:Ubuntu;
+}
+.FullBody{
+	padding: 0;
+	position: relative;
+}
+.TopBody {
+	position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100% !important;
+	margin: 0;
+	padding: 0;
+	margin: 0% !important;
+  }
+  
+  .TopBody::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../Figma Components/grupo-rebo-hero-1 1.png');
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	/*opacity: 0.6;  Aplica la opacidad solo al pseudo-elemento */
+	z-index: -1; /* Asegúrate de que la imagen de fondo quede detrás del contenido */
+  }
+  
+  .TopBody {
+	display: flex;
+	flex-direction: column;
+	height: 767px;
+	gap: 3vh;
+	margin: 0;
+  }
+  .Top1{
+	margin: 0;
+	padding-top: 120px;
+	width: 100% !important;
+  }
+
+  .LogoReboTop {
+	padding-left: 100px;
+	height: 10vh;
+	
+  }
+
+  .LogoReboContainer{
+	display: inline-flex;
+	justify-content: start !important;
+  }
+  
+  .col text-start{
+	margin: 0;
+	padding: 0;
+  }
+  .Top2{
+	object-fit: contain;
+	height: fit-content;
+	margin: 0%;
+	padding-left: 100px;
+	margin-right: 0% !important;
+  }
+  .MainTitle{
+	height: fit-content;
+  }
+  .h1{
+	color: white;
+	margin: 0;
+	max-width: 700px;
+	
+  }
+
+  .Top3{
+	margin: 0;
+	gap: 10px;
+	padding-left: 100px;
+	margin-right: 0% !important;
+
+  }
+  .col-12{
+	margin: 0;
+	padding: 0;
+}
+.MidBody{
+	background-color: black;
+	height: 915px;
+	display: flex;
+	flex-direction: column;
+	
+	gap: 3vh;
+	margin: 0;
+	padding: 0;
+}
+.MidBody2Left{
+	position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
+	background-image: url('../Figma Components/Rectangle\ 23.png');
+	
+	background-position: start;
+	background-repeat: no-repeat;
+}
+
+.MidBody2Right{
+	padding-top: 30px;
+	position: relative;
+	background-image: url('../Figma Components/Rectangle\ 22.png');
+	/* Asegura que el pseudo-elemento se posicione correctamente */
+	
+	background-position: end;
+	background-repeat: no-repeat;
+}
+.EtiquetaProductos{
+	padding-top: 20px;
+}
+.MidBody2{
+	background-image: url('../Figma Components/grupo-rebo-hero-2\ 1.png');
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 522px;
+	margin: 0%;
+	margin-right: 0 !important
+}
+.Top12{
+	gap: 30px;
+}
+.ButtonMid{
+	width: fit-content;
+}
+
+.MainTitle{
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+
+@media (max-width: 992px) { /* Pantallas debajo de lg (menos de 992px) */
+	.MainTitle{
+		font-size: 2rem;
+	}
+	.LogoReboTop {
+		padding-left: 0;
+		height: 10vh;
+		cursor: pointer;
+	  }
+	.LogoReboContainer{
+		justify-content: center !important;
+		display: inline-flex;
+	  }
+	.Top2{
+		padding-left: 0;
+	}
+	.Top3{
+		padding-left: 0;
+	}
+	.OrangeRectangle{
+	top: 25%; /* Centra verticalmente */
+	left: 50%; /* Centra horizontalmente */
+	transform: translate(-45%, -60%); /* Ajusta para centrar completamente */
+	width: 50%; /* Reduce el tamaño en pantallas pequeñas */
+	}
+	.ReboHero3 {
+	  top: 20%; /* Centra verticalmente */
+	  left: 50%; /* Centra horizontalmente */
+	  transform: translate(-50%, -60%); /* Ajusta para centrar completamente */
+	  width: 50%; /* Reduce el tamaño en pantallas pequeñas */
+	  min-width: 200px;
+	}
+	.OrangeRectangle{
+		min-width: 210px;
+	}
+	.MidBody2Left{
+		
+	background-image: url('../Figma Components/grupo-rebo-hero-2\ 2.png');
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 482px;
+		
+	}
+	.MidBody2Right{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		
+		padding-right: 20px;
+		background-color: rgba(153, 0, 0, 1);
+	}
+	.MidBody2{
+		background: none;
+	}
+	.MidBody3{
+		display: flex;
+		gap: none;
+	}
+	.LeftSectionMid3{
+		padding-top: 30px;
+		height: fit-content;
+	}
+	.RightSectionMid3{
+		padding-bottom: 100px;
+	}
+	.MedalHolderContainer{
+		position: absolute;
+		top: 0%; /* Coloca la imagen justo al final del primer div */
+		left: 50%; /* Centra la imagen horizontalmente */
+		transform: translate(-50%, -50%); /* Ajusta la imagen para que esté parcialmente en ambos divs */
+		 /* Ancho de la imagen */
+		z-index: 0; /* Asegura que la imagen esté por encima de ambos divs */
+	
+		background-image: url('../Figma Components/Rectangle\ 21.png');
+		background-position: start;
+		background-repeat: no-repeat;
+		max-width: 1200px;
+		display: flex;
+		align-items: center;
+	}
+
+
+
+
+  }
+
+  
+
+.line-1{
+	height: 5px;
+	background-color:white ;
+}
+.MedalHolderContainer{
+	position: absolute;
+	top: 24%; /* Coloca la imagen justo al final del primer div */
+	left: 50%; /* Centra la imagen horizontalmente */
+	transform: translate(-50%, -50%); /* Ajusta la imagen para que esté parcialmente en ambos divs */
+	 /* Ancho de la imagen */
+	z-index: 0; /* Asegura que la imagen esté por encima de ambos divs */
+
+    background-image: url('../Figma Components/Rectangle\ 21.png');
+	background-position: start;
+	background-repeat: no-repeat;
+    max-width: 1200px;
+	display: flex;
+	align-items: center;
+}
+
+.Top4{
+	margin: 0;
+	padding-top: 150px;
+	margin-right: 0% !important;
+}
+.Top5{
+	margin: 0%;
+	margin-right: 0% !important;
+}
+.Top6{
+	margin: 0%;
+	margin-right: 0% !important;
+	display: flex;
+
+}
+.card1{
+	display: flex;
+	align-items: center;
+}
+.card2{
+	display: flex;
+	align-items: center;
+}
+.card3{
+	display: flex;
+	align-items: center;
+}
+
+.Top9{
+	gap: 20px;
+	margin-right: 0% !important;
+}
+.MidBody3{
+	background-color: rgba(33, 33, 26, 1);
+	height: 768px;
+	margin-right: 0 !important
+	
+}
+.Top{
+	margin: 0%;
+	padding: 0%;
+}
+.EndBody{
+	height: 100%;
+	background-color: black;
+	
+	margin: 0;
+	padding: 0;
+}
+.Top15{
+	display: flex;
+	gap: 30px;
+}
+.LogoReboEnd{
+	
+	height: 15vh;
+	width: 15vw;
+	min-width: 100px;
+}

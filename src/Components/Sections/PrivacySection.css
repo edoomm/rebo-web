@@ -1,0 +1,28 @@
+.PrivacyName{
+    background-image:  url('../Figma Components/BackgroundPrivacy.png');
+    background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.PrivacyTitle{
+    font-size: 5rem;
+}
+.PrivacyText{
+    padding-left: 5rem;
+    margin: 0%;
+}
+
+@media (max-width: 992px) {
+    .PrivacyTitle{
+        font-size: 3rem;
+    }
+    .PrivacyText{
+        padding: 0%;
+        margin: 0%;
+    }
+
+}

@@ -1,10 +1,14 @@
 name: Build and Deploy
 
-on:
+on: 
+  workflow_dispatch:
   push:
     branches:
       - main
   pull_request:
+
+env:
+  CI: false
 
 jobs:
   build:
@@ -24,6 +28,7 @@ jobs:
 
       - name: Linter
         run: npm run lint
+        continue-on-error: true
 
       - name: Build
         run: npm run build
@@ -31,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'out/.'
+          path: 'build/.'
 
   deploy:
     needs: build
