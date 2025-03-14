@@ -1,0 +1,55 @@
+.Top1Body{
+	position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
+	background-image: url('../Figma Components/AboutUs/AcercaDe.png');
+	background-size: cover; 
+	background-position: start;
+	background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+	margin-right: 0% !important;
+}
+.MidBody1About{
+	background-color: rgba(33, 33, 26, 1);
+	height: 768px;
+	margin-right: 0% !important;
+}
+
+@media only screen and (min-width: 2200px) and (max-width:2560px ) { 
+	.ReboHero3{
+		transform: translate(-10%, -20%);
+		position: fixed;
+	}
+	.OrangeRectangle{
+		transform: translate(+50%, -10%);
+		position: fixed;
+	}
+	.ReboHero4{
+		transform: translate(+120%, -20%);
+	}
+  }
+  @media only screen and (min-width: 1440px) and (max-width:2200px ) { 
+	.ReboHero3{
+		transform: translate(-10%, -10%);
+		position: fixed;
+	}
+	.OrangeRectangle{
+		transform: translate(-10%, +10%);
+		position: fixed;
+	}
+	.ReboHero4{
+		transform: translate(+20%, -20%);
+	}
+  }
+  @media only screen and (min-width: 2560px)  { 
+	.ReboHero3{
+		transform: translate(-25%, -20%);
+		position: fixed;
+	}
+	.OrangeRectangle{
+		transform: translate(+50%, -10%);
+		position: fixed;
+	}
+	.ReboHero4{
+		transform: translate(+145%, -20%);
+	}
+  }

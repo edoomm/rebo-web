@@ -1,0 +1,11 @@
+# Comparative table of similar software
+      
+
+| Software   | Description | Price   |
+| :---        |    :----:   |          ---: |
+| [Anaplan](https://www.anaplan.com)    | "Anaplan PlanIQ™ helps users drive accurate decisions with forecasting that leverages powerful, integrated artificial intelligence (AI) and machine learning (ML). Collaborate across your enterprise, working with a single source of truth, updated and calculated in real-time. Test multiple scenarios and quickly operationalize best options."  | $30,000 per year for small teams |
+| [ZoHo Analytics](https://www.zoho.com/es-xl/analytics/pricing.html)  |"Unified business information. Unify business data across your organization from various functions, such as marketing, sales, support, finance, and more. Analyze this unified data seamlessly and discover holistic insights. Learn more about unified business analytics."     | 2000-8000 MX$ monthly for 15 to 50 users    |
+| [Jirav](https://www.jirav.com/reporting-planning-purpose-built-for-businesses) |"Spend less time updating and rolling forward your forecasts and more time analyzing. Easily adjust mid to long-range plans and rolling forecasts in minutes and keep a constant pulse on your cash flow and working capital assumptions so you can make confident decisions."    | Prices start ar $10000 per year depending on team size and features  |
+| [FLOAT](https://www.float.com/pricing) |Monitor your budget, actual costs, and utilization rates in real time:  * Set a budget based on time or fees * Forecast your capacity and spend * Compare scheduled vs. logged hours    | Starts at $99 per month for the Essential plan and $249 per month for the Premium plan.     |
+| [Hubspot Sales hub](https://www.hubspot.es/products/sales) |"A complete sales software with sales interaction tools, business management functions, analytics and reporting features, CPQ capabilities and training tools. Plus, it can easily integrate with the more than 1,500 tools in HubSpot's App Marketplace."  | - Free edition: 0 USD per month Starter: 20 USD per month per license, Pro: 100 USD per month per license, Enterprise: 150 USD per month per license  |
+| [Software adicionales](https://smallbiztrends.com/sales-forecasting-software/) | N/A| N/A  |
