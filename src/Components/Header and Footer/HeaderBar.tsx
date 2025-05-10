@@ -59,7 +59,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 					/>
 					</Link>
 				<div className="ButtonContainer d-flex gap-3 justify-content-start">
-					<Button variant="primary" onClick={handleShow} className="Menu d-lg-none text-center" style={{ border: 'none', background: 'none' }}>
+					<Button variant="primary" onClick={handleShow} className="Menu d-lg-none text-end" style={{ border: 'none', background: 'none' }}>
 						<img className="MenuIcon" src={require('../Figma Components/Menu_Button.png')} alt="MenuIcon" />
 					</Button>
 					<Nav className="nav navbar-expand-lg d-none d-lg-flex justify-content-start nav-pills flex-column flex-sm-row">

@@ -1,18 +1,16 @@
 .btn{
     --bs-btn-border-radius:0;
     align-items: center;
-    border-radius: none!important;
     height: 5.5vh;
     min-height: 35px;
     font-weight: bold;
     width: fit-content;
     margin: 0;
     min-width: 200px;
-    padding: 0% !important;
-    
+    padding: 1em 1.5em 2em;
 }
+
 .BodyB{
-    border-radius: none !important;
     border: none!important;
     height: 5.5vh;
     max-height: fit-content;
@@ -20,10 +18,8 @@
     max-width: 200px;
     margin: 0;
     min-width: 170px;
-    padding-left: 2px !important;
-    padding-right: 2px !important;
-    
 }
+
 .btn:hover{
     opacity: 0.6;
 }

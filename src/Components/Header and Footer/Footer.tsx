@@ -31,7 +31,7 @@ function Footer() {
 
         <Col xs={12}>
           <div style={{ height: '2px', backgroundColor: 'orange' }}></div>
-          <p className="h5 text-white text-center" style={{ fontWeight: 'normal', fontSize: '15px' }}>2024 Todos los derechos reservados</p>
+          <p className="h5 text-white text-center" style={{ fontWeight: 'normal', fontSize: '15px' }}>2025 Todos los derechos reservados</p>
         </Col>
       </Row>
     </Container>

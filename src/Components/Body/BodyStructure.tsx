@@ -42,8 +42,8 @@ const BodyStructure: React.FC = () => {
       </div>
       <div style={{height:'5px',backgroundColor:'white', width:'100%'}}></div>
 
-      <div className="MidBody p-0 ">
-        <div className="Top4 row justify-content-left">
+      <div className="MidBody p-0" >
+        <div className="Top4 row justify-content-left" style={{ marginTop: '4em' }}>
           <div className="Etiqueta-Productos col h2 text-white text-center">
             PRODUCTOS
           </div>
